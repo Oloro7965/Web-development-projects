@@ -1,21 +1,26 @@
+/* Todos os elementos da página */
 *{
     margin: 0;
     padding: 0;
 }
+/* Todos os elementos com o id titulo */
 #titulo{
     color: #380B61;
     font-family: sans-serif;
     margin-left: 7%;
 }
+/* Todos os elementos com o id subtitulo */
 #subtitulo{
     color: #380B61;
     font-family: sans-serif;
     margin-left: 10%;
 }
+/* Todos os elementos com a tag fieldset */
 fieldset{
     border: 0;
 
 }
+/* Todos os elementos dentro do body */
 body{
     background-color: #F0F8FF;
     font-family: sans-serif;
@@ -25,37 +30,45 @@ body{
     margin-top: 2%;
     justify-content: center;
 }
+/* Todos os elementos com a tag input,select,textarea e button */
 input,select,textarea,button{
     font-family: sans-serif;
     font-size: 1em;
     color: #59429d;
     border-radius: 5px;
 }
+/* Todos os elementos da classe campo */
 .campo{
     margin-bottom: 1em;
 }
+/* Todos os elementos da classe campo e tag label */
 .campo label{
     margin-bottom: 0.2em;
     color: #59429d;
     display:block;
 }
+/* Todos os elementos com a tag fieldset e com as classes grupo e campo */
 fieldset.grupo .campo{
     float:left;
     margin-right: 1em;
 }
+/* Todos os elementos da classe campo e com as tags input para texto, input para email, select e textarea */
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
     padding: 0.2em;
     border: 1px solid #59429d;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     display: block;
 }
+/* Todos os elementos da classe campo e as tags select e option */
 .campo select option{
     padding-right: 1em;
 }
+/* Todos os elementos da classe campo e tag input:focus, select:focus e textarea:focus */
 .campo input:focus, .campo select:focus,.campo textarea:focus{
     background-color: #e0e0f8;
 
 }
+/* Todos os elementos da classe botao */
 .botao{
     font-size: 1.2em;
     background:#59429d;
@@ -71,11 +84,13 @@ fieldset.grupo .campo{
     margin-right: -50%;
     transform: translate(-50%,-50%);
 }
+/* classe botão sendo hover o comando quando o usuário passar o mouse no elemento */
 .botao:hover{
     background : #ccbbff;
     box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2)
     text-shadow : none;
 }
+/* Todos os elementos da classe botão e também com a tag select */
 .botao,select{
     cursor: pointer;
 }
